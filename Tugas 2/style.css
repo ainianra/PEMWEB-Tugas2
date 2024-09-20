@@ -1,0 +1,94 @@
+/* Warna background dan font */
+body {
+    font-family: Arial, sans-serif;
+    margin:auto;
+    background-color: #d9d1b4;
+    color: #496372;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Styling form */
+form {
+    background-color: #afb098;
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling label */
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/* Styling input dan textarea */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a6b3a8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Styling button */
+button {
+    background-color: #496372;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Hover button */
+button:hover {
+    background-color: #34495e;
+}
+
+/* Styling tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 30px;
+    border: 1px solid #a6b3a8;
+    text-align: left;
+}
+
+/* Background warna th */
+th {
+    background-color: #cec5a7;
+    color: #496372;
+}
+
+/* Background warna td */
+td {
+    background-color: #f9f9f9;
+}
+
+/* Responsive tampilan form */
+@media (max-width: 768px) {
+    form {
+        width: 100%;
+    }
+
+    input[type="text"], textarea {
+        width: 100%;
+    }
+}
